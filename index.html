@@ -42,10 +42,12 @@
       </ul>
     </div>
   </nav>
-  <main class="row">
-    <div class="col-sm-12 col-md-10 col-lg-8 container">
-      <article class="introduction">
-          <h3>Introduce</h3>
+  <main>
+    <!-- INTRODUCTION -->
+    <div class="row">
+      <div class="col-sm-12 col-md-10 col-lg-8 container">
+        <article class="introduction">
+          <h2>Introduce</h2>
           <section>
             <p>
               I’m hobbyist programmer and vocational
@@ -57,62 +59,131 @@
             </p>
           </section>
         </article>
-    
-        <article id="projects">
-          <h3>Projects</h3>
-    
-          <!-- Stock Exchange project -->
-          <h2 id="stock-exchange" class="project-header">Stock Exchange</h2>
-          <article class="project">
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <article id="projects">
+      <div class="row">
+          <div class="col-sm-12 col-md-10 col-lg-8 container">
+            <h2>Projects</h2>
+            <!-- Stock Exchange project -->
+            <h3 id="stock-exchange" class="project-header">Stock Exchange</h3>
+            <article class="project">
+              <section class="carousel">
+                <div id="stock-exchange-carousel" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <!-- FIRST ITEM -->
+                    <div class="carousel-item active">
+                      <div class="carousel-img-sm">
+                        <img class="d-block w-100" src="./projects-screenshots/stock-exchange/table-currencies-sm.png" alt="First slide">
+                      </div>
+                      <div class="carousel-img-lg">
+                        <img class="d-block w-100" src="./projects-screenshots/stock-exchange/table-currencies-lg.png" alt="First slide">
+                      </div>
+                      <div class="carousel-caption fixed-bottom screenshot-info">
+                        <h5>Exchange rates</h5>
+                        <p>Table with currencies details</p>
+                      </div>
+                    </div>
+                    <!-- SECOND ITEM -->
+                    <div class="carousel-item">
+                      <div class="carousel-img-sm">
+                        <img class="d-block w-100" src="./projects-screenshots/stock-exchange/converter-sm.png" alt="Second slide">
+                      </div>
+                      <div class="carousel-img-lg">
+                        <img class="d-block w-100" src="./projects-screenshots/stock-exchange/converter-lg.png" alt="Second slide">
+                      </div>
+                      <div class="carousel-caption fixed-bottom screenshot-info">
+                        <h5>Converter</h5>
+                        <p>Currencies converter</p>
+                      </div>
+                    </div>
+                    <!-- THIRD ITEM -->
+                    <div class="carousel-item">
+                      <div class="carousel-img-sm">
+                        <img class="d-block w-100" src="./projects-screenshots/stock-exchange/history-diagram-sm.png" alt="Third slide">
+                      </div>
+                      <div class="carousel-img-lg">
+                        <img class="d-block w-100" src="./projects-screenshots/stock-exchange/history-diagram-lg.png" alt="Third slide">
+                      </div>
+                      <div class="carousel-caption fixed-bottom screenshot-info">
+                        <h5>Diagrams</h5>
+                        <p>Diagrams to display currency history</p>
+                      </div>
+                    </div>
+                    <!-- END ITEMS -->
+                  </div>
+                  <a class="carousel-control-prev" href="#stock-exchange-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#stock-exchange-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </section>
+              <section class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Aenean ullamcorper odio purus, id vestibulum nibh posuere semper. 
+                Duis eu nunc sit amet felis interdum hendrerit in eget justo. 
+                Nulla id mi facilisis, ornare dolor nec, fringilla sapien.
+              </section>
+          </article>
+
+          <!-- Blog project -->
+        <h3 id="blog" class="project-header">Blog</h3>
+        <article class="project">
             <section class="carousel">
-              <div id="stock-exchange-carousel" class="carousel slide" data-ride="carousel">
+              <div id="blog-carousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <!-- FIRST ITEM -->
                   <div class="carousel-item active">
                     <div class="carousel-img-sm">
-                      <img class="d-block w-100" src="./projects-screenshots/stock-exchange/table-currencies-sm.png" alt="First slide">
+                      <img class="d-block w-100" src="./projects-screenshots/blog/home-sm.png" alt="First slide">
                     </div>
                     <div class="carousel-img-lg">
-                      <img class="d-block w-100" src="./projects-screenshots/stock-exchange/table-currencies-lg.png" alt="First slide">
+                      <img class="d-block w-100" src="./projects-screenshots/blog/home-lg.png" alt="First slide">
                     </div>
                     <div class="carousel-caption fixed-bottom screenshot-info">
-                      <h5>Exchange rates</h5>
-                      <p>Table with currencies details</p>
+                      <h5>Home</h5>
+                      <p>Displays user shared posts</p>
                     </div>
                   </div>
                   <!-- SECOND ITEM -->
                   <div class="carousel-item">
                     <div class="carousel-img-sm">
-                      <img class="d-block w-100" src="./projects-screenshots/stock-exchange/converter-sm.png" alt="Second slide">
+                      <img class="d-block w-100" src="./projects-screenshots/blog/article-sm.png" alt="Second slide">
                     </div>
                     <div class="carousel-img-lg">
-                      <img class="d-block w-100" src="./projects-screenshots/stock-exchange/converter-lg.png" alt="Second slide">
+                        <img class="d-block w-100" src="./projects-screenshots/blog/article-lg.png" alt="Second slide">
                     </div>
                     <div class="carousel-caption fixed-bottom screenshot-info">
-                      <h5>Converter</h5>
-                      <p>Currencies converter</p>
+                      <h5>Article</h5>
+                      <p>Single article view</p>
                     </div>
                   </div>
                   <!-- THIRD ITEM -->
                   <div class="carousel-item">
                     <div class="carousel-img-sm">
-                      <img class="d-block w-100" src="./projects-screenshots/stock-exchange/history-diagram-sm.png" alt="Third slide">
+                      <img class="d-block w-100" src="./projects-screenshots/blog/add-article-sm.png" alt="Third slide">
                     </div>
                     <div class="carousel-img-lg">
-                      <img class="d-block w-100" src="./projects-screenshots/stock-exchange/history-diagram-lg.png" alt="Third slide">
+                        <img class="d-block w-100" src="./projects-screenshots/blog/add-article-lg.png" alt="Third slide">
                     </div>
                     <div class="carousel-caption fixed-bottom screenshot-info">
-                      <h5>Diagrams</h5>
-                      <p>Diagrams to display currency history</p>
+                      <h5>Postings</h5>
+                      <p>Users can posts their thoughs, activities etc.</p>
                     </div>
                   </div>
                   <!-- END ITEMS -->
                 </div>
-                <a class="carousel-control-prev" href="#stock-exchange-carousel" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#blog-carousel" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#stock-exchange-carousel" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#blog-carousel" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
@@ -124,176 +195,107 @@
               Duis eu nunc sit amet felis interdum hendrerit in eget justo. 
               Nulla id mi facilisis, ornare dolor nec, fringilla sapien.
             </section>
-        </article>
+          </article>
 
-        <!-- Blog project -->
-      <h2 id="blog" class="project-header">Blog</h2>
-      <article class="project">
-          <section class="carousel">
-            <div id="blog-carousel" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <!-- FIRST ITEM -->
-                <div class="carousel-item active">
-                  <div class="carousel-img-sm">
-                    <img class="d-block w-100" src="./projects-screenshots/blog/home-sm.png" alt="First slide">
+        <!-- Class Hosting project -->
+        <h3 id="class-hosting" class="project-header">Class Hosting</h3>
+        <article class="project">
+            <section class="carousel">
+              <div id="class-hosting-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <!-- FIRST ITEM -->
+                  <div class="carousel-item active">
+                    <div class="carousel-img-sm">
+                      <img class="d-block w-100" src="./projects-screenshots/class-hosting/sections-sm.png" alt="First slide">
+                    </div>
+                    <div class="carousel-img-lg">
+                      <img class="d-block w-100" src="./projects-screenshots/class-hosting/sections-lg.png" alt="First slide">
+                    </div>
+                    <div class="carousel-caption fixed-bottom screenshot-info">
+                      <h5>Sections</h5>
+                      <p>File are grouped into section, for example school subjects</p>
+                    </div>
                   </div>
-                  <div class="carousel-img-lg">
-                    <img class="d-block w-100" src="./projects-screenshots/blog/home-lg.png" alt="First slide">
+                  <!-- SECOND ITEM -->
+                  <div class="carousel-item">
+                    <div class="carousel-img-sm">
+                      <img class="d-block w-100" src="./projects-screenshots/class-hosting/images-sm.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-img-lg">
+                      <img class="d-block w-100" src="./projects-screenshots/class-hosting/images-lg.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-caption fixed-bottom screenshot-info">
+                      <h5>Images</h5>
+                      <p>User can access their notes saved as images</p>
+                    </div>
                   </div>
-                  <div class="carousel-caption fixed-bottom screenshot-info">
-                    <h5>Home</h5>
-                    <p>Displays user shared posts</p>
+                  <!-- THIRD ITEM -->
+                  <div class="carousel-item">
+                    <div class="carousel-img-sm">
+                      <img class="d-block w-100" src="./projects-screenshots/class-hosting/file-types-sm.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-img-lg">
+                      <img class="d-block w-100" src="./projects-screenshots/class-hosting/file-types-lg.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-caption fixed-bottom screenshot-info">
+                      <h5>File types</h5>
+                      <p>Files are also grouped by their extensions</p>
+                    </div>
                   </div>
+                  <!-- END ITEMS -->
                 </div>
-                <!-- SECOND ITEM -->
-                <div class="carousel-item">
-                  <div class="carousel-img-sm">
-                    <img class="d-block w-100" src="./projects-screenshots/blog/article-sm.png" alt="Second slide">
-                  </div>
-                  <div class="carousel-img-lg">
-                      <img class="d-block w-100" src="./projects-screenshots/blog/article-lg.png" alt="Second slide">
-                  </div>
-                  <div class="carousel-caption fixed-bottom screenshot-info">
-                    <h5>Article</h5>
-                    <p>Single article view</p>
-                  </div>
-                </div>
-                <!-- THIRD ITEM -->
-                <div class="carousel-item">
-                  <div class="carousel-img-sm">
-                    <img class="d-block w-100" src="./projects-screenshots/blog/add-article-sm.png" alt="Third slide">
-                  </div>
-                  <div class="carousel-img-lg">
-                      <img class="d-block w-100" src="./projects-screenshots/blog/add-article-lg.png" alt="Third slide">
-                  </div>
-                  <div class="carousel-caption fixed-bottom screenshot-info">
-                    <h5>Postings</h5>
-                    <p>Users can posts their thoughs, activities etc.</p>
-                  </div>
-                </div>
-                <!-- END ITEMS -->
+                <a class="carousel-control-prev" href="#class-hosting-carousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#class-hosting-carousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
               </div>
-              <a class="carousel-control-prev" href="#blog-carousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#blog-carousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </section>
-          <section class="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Aenean ullamcorper odio purus, id vestibulum nibh posuere semper. 
-            Duis eu nunc sit amet felis interdum hendrerit in eget justo. 
-            Nulla id mi facilisis, ornare dolor nec, fringilla sapien.
-          </section>
-        </article>
-
-      <!-- Class Hosting project -->
-      <h2 id="class-hosting" class="project-header">Class Hosting</h2>
-      <article class="project">
-          <section class="carousel">
-            <div id="class-hosting-carousel" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <!-- FIRST ITEM -->
-                <div class="carousel-item active">
-                  <div class="carousel-img-sm">
-                    <img class="d-block w-100" src="./projects-screenshots/class-hosting/sections-sm.png" alt="First slide">
+            </section>
+            <section class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Aenean ullamcorper odio purus, id vestibulum nibh posuere semper. 
+              Duis eu nunc sit amet felis interdum hendrerit in eget justo. 
+              Nulla id mi facilisis, ornare dolor nec, fringilla sapien.
+            </section>
+          </article>
+    
+          <!-- Amadventure project -->
+          <h3 id="amadventure" class="project-header">Amadventure</h3>
+          <article class="project col-xs-6">
+            <section class="carousel">
+              <div id="amadventure-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <!-- FIRST ITEM -->
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="./projects-screenshots/amadventure/Amadventure-logo.png" alt="First slide">
                   </div>
-                  <div class="carousel-img-lg">
-                    <img class="d-block w-100" src="./projects-screenshots/class-hosting/sections-lg.png" alt="First slide">
-                  </div>
-                  <div class="carousel-caption fixed-bottom screenshot-info">
-                    <h5>Sections</h5>
-                    <p>File are grouped into section, for example school subjects</p>
-                  </div>
+                  <!-- END ITEMS -->
                 </div>
-                <!-- SECOND ITEM -->
-                <div class="carousel-item">
-                  <div class="carousel-img-sm">
-                    <img class="d-block w-100" src="./projects-screenshots/class-hosting/images-sm.png" alt="Second slide">
-                  </div>
-                  <div class="carousel-img-lg">
-                    <img class="d-block w-100" src="./projects-screenshots/class-hosting/images-lg.png" alt="Second slide">
-                  </div>
-                  <div class="carousel-caption fixed-bottom screenshot-info">
-                    <h5>Images</h5>
-                    <p>User can access their notes saved as images</p>
-                  </div>
-                </div>
-                <!-- THIRD ITEM -->
-                <div class="carousel-item">
-                  <div class="carousel-img-sm">
-                    <img class="d-block w-100" src="./projects-screenshots/class-hosting/file-types-sm.png" alt="Third slide">
-                  </div>
-                  <div class="carousel-img-lg">
-                    <img class="d-block w-100" src="./projects-screenshots/class-hosting/file-types-lg.png" alt="Third slide">
-                  </div>
-                  <div class="carousel-caption fixed-bottom screenshot-info">
-                    <h5>File types</h5>
-                    <p>Files are also grouped by their extensions</p>
-                  </div>
-                </div>
-                <!-- END ITEMS -->
               </div>
-              <a class="carousel-control-prev" href="#class-hosting-carousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#class-hosting-carousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </section>
-          <section class="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Aenean ullamcorper odio purus, id vestibulum nibh posuere semper. 
-            Duis eu nunc sit amet felis interdum hendrerit in eget justo. 
-            Nulla id mi facilisis, ornare dolor nec, fringilla sapien.
-          </section>
-        </article>
-  
-        <!-- Amadventure project -->
-        <h2 id="amadventure" class="project-header">Amadventure</h2>
-        <article class="project col-xs-6">
-          <section class="carousel">
-            <div id="amadventure-carousel" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <!-- FIRST ITEM -->
-                <div class="carousel-item active">
-                  <img class="d-block w-100" src="./projects-screenshots/amadventure/Amadventure-logo.png" alt="First slide">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>...</h5>
-                    <p>...</p>
-                  </div>
-                </div>
-                <!-- END ITEMS -->
-              </div>
-            </div>
-          </section>
-          <section class="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Aenean ullamcorper odio purus, id vestibulum nibh posuere semper. 
-            Duis eu nunc sit amet felis interdum hendrerit in eget justo. 
-            Nulla id mi facilisis, ornare dolor nec, fringilla sapien.
-          </section>
-        </article>
-      </article> <!-- PROJECTS -->
-
-      <!-- Contact -->
-        <article id="contact">
-          <h3>Contact</h3>
-          <section>
-            <p class="email">Email</p>
-            <p class="telephone">Telephone</p>
-            <p class="github">Github</p>
-            <p class="linkedin">LinkedIn</p>
-          </section>
-        </article>
+            </section>
+            <section class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Aenean ullamcorper odio purus, id vestibulum nibh posuere semper. 
+              Duis eu nunc sit amet felis interdum hendrerit in eget justo. 
+              Nulla id mi facilisis, ornare dolor nec, fringilla sapien.
+            </section>
+          </article>
+        </article> <!-- PROJECTS -->
+        </div>
       </div>
+      <!-- Contact -->
+      <article id="contact">
+          <h3>Contact</h3>
+          <section class="description">
+            <p><span class="subject">Email: </span>michal.mietus0@gmail.com</p>
+            <p><span class="subject">Phone: </span>792 726 619</p>
+            <p><span class="subject">Github: </span><a href="http://github.com/michal-mietus/">github.com/michal-mietus</a></p>
+            <p><span class="subject">LinkedIn: </span><a href="http://linkedin/">linkedin.com</a></p>
+          </section>
+        </article>
   </main>
   <footer>
 
