@@ -1,12 +1,17 @@
-#amadventure {
-  background-image: url("projects-screenshots/amadventure/Amadventure-logo.png");
-}
-
 #contact {
+  margin: 0;
   color: white;
   background-color: #343a40;
 }
 
 #contact .subject {
+  font-weight: bold;
+}
+
+#projects {
+  margin-top: 20px;
+}
+
+.logo {
   font-weight: bold;
 }
